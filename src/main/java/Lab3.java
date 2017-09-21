@@ -84,9 +84,9 @@ public class Lab3 {
 
     /** This is the main method.
      *
-     * @param args
+     * @param args args...
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
            System.out.println(countWords("Hello world hi hi"));
            System.out.println(wordFinder("world world world", "world"));
            System.out.println(uniqueWordCounter("H h h i k"));
